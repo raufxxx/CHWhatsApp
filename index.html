@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CHWhatsApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="logo">CHWhatsApp</a>
+            <div class="action">
+                <a href="#"><i class="fa fa-camera"></i></a>
+                <a href="#"><i class="fa fa-search"></i></a>
+                <a href="#"><i class="fa fa-ellipsis-vertical"></i></a>
+            </div>
+        </header>
+        <div class="tabs">
+            <input id="chats" type="radio" name="group" checked>
+            <input id="status" type="radio" name="group">
+            <input id="calls" type="radio" name="group">
+
+            <div class="buttons">
+                <label for="chats">Söhbət</label>
+                <label for="status">Status</label>
+                <label for="calls">Zəng</label>
+                <div class="underline"></div>
+            </div>
+
+            <div class="quickBtn">
+                <div class="btn message"><i class="fa fa-comment"></i></div>
+                <div class="btn camers">
+                    <div class="pencil"><i class="fa fa-pen"></i></div>
+                    <i class="fa fa-camera"></i>
+                </div>
+                <div class="btn call"><i class="fa fa-phone"></i></div>
+            </div>
+ 
+            <div class="content">
+                <div class="box chats">
+                    <div class="data">
+                        <div class="chatlist">
+                            <div class="block unread">
+                                <div class="imgbx">
+                                    <img src="Profil.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>CodeHUB</h4>
+                                        <p class="time">12:31</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Telegram kanalımız @ICodeHUB
+                                        </p>
+                                        <b>1</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unread">
+                                <div class="imgbx">
+                                    <img src="Cavidan.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Coni</h4>
+                                        <p class="time">17:05</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Hardasan??</p>
+                                        <b>15</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unread">
+                                <div class="imgbx">
+                                    <img src="Rəşid.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Rəşid</h4>
+                                        <p class="time">Dünən</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Sağol</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unread">
+                                <div class="imgbx">
+                                    <img src="user.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Özüm(SİZ)</h4>
+                                        <p class="time">10/01/23</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box status">
+                    <div class="data">
+                        <div class="chatlist">
+                            <div class="block">
+                                <div class="imgbx">
+                                    <img src="Profil.jpg">
+                                </div>
+                                <div class="plus">+</div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Mənim Statusum</h4>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Status əlavə et</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <label>Yeni Statuslar</label>
+                            <div class="block unseen">
+                                <div class="imgbx">
+                                    <img src="Cavidan.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Coni</h4>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Yeni</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unseen">
+                                <div class="imgbx">
+                                    <img src="Rəşid.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Rəşid</h4>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>10 dəyə əvvəl</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <label>Baxılmış Statuslar</label>
+                            <div class="block seen">
+                                <div class="imgbx">
+                                    <img src="user.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Özüm(SİZ)</h4>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>1 saat əvvəl</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box calls">
+                    <div class="data">
+                        <div class="chatlist">
+                            <div class="block">
+                                <div class="imgbx green">
+                                    <i class="fa fa-link"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Zəng linki</h4>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>WhatsApp Zəng linkini paylaş
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <label>Zəng Tarixçəsi</label>
+                            <div class="block">
+                                <div class="imgbx">
+                                    <img src="user.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>ilahə</h4>
+                                    </div>
+                                    <div class="message_p incoming">
+                                        <p><i class="fa fa-down-long"></i> 28/01/2023,03:31</p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-phone"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
